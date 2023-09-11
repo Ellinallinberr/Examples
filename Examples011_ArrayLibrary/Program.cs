@@ -25,3 +25,19 @@ int[] array = new int[10];
 
 FillArray(array);
 PrintArray(array);
+
+
+
+
+
+
+
+Console.WriteLine("Введите трёхзначное число: ");
+string num = Console.ReadLine();
+
+if(int.Parse(num) > 1000 || int.Parse(num) < 99) {
+    Console.WriteLine("Число не трёхзначное");
+    return;
+}
+
+Console.WriteLine(num[1]);
