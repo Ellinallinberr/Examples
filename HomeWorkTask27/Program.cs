@@ -9,3 +9,17 @@ int ReadData(string msg)
     return num;
 }
 
+
+int SumDigit(int num)
+
+{
+    int res = 0;
+    while (num > 0)
+    {
+        res = res + num % 10;
+        num = num / 10;
+    }
+    return res;
+}
+int num = ReadData("Введите число: ");
+Console.WriteLine("Сумма чисел в числе " + num + " равна " + SumDigit(num));
