@@ -20,7 +20,7 @@ void PrintResult(string msg)
 int SimpleSum(int numA)
 {
     int sumOfNumber = 0;
-    for (int i = 0; i < numA; i++)
+    for (int i = 0; i <= numA; i++)
     {
         sumOfNumber = sumOfNumber + i;
         //sumOfNumber+=i;
@@ -28,7 +28,16 @@ int SimpleSum(int numA)
     return sumOfNumber;
 }
 
+int GausseSum(int numA)
+{
+    int sumOfNumber = 0;
+    sumOfNumber=(numA*(numA+1))/2;
+    return sumOfNumber;
+}
 int numberA = ReadData("Введите число А: ");
 
-int res = SimpleSum(numberA);
-PrintResult("Сумма чисел от 1 до " + numberA + " равна " + res);
+int res1 = SimpleSum(numberA);
+int res2 = GausseSum(numberA);
+
+PrintResult("Сумма чисел от 1 до " + numberA + " (простой)равна " + res1);
+PrintResult("Сумма чисел от 1 до " + numberA + " (Гаусса)равна " + res2);
