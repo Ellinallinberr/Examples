@@ -15,7 +15,7 @@ void PrintArray(int[] arr)
     Console.WriteLine(arr[arr.Length - 1] + "]");
 }
 
-// Находим количество элементов в заданном диапазоне
+// Находим количество четных элементов в заданном диапазоне
 int CountElm(int[] arr)
 {
     int count = 0;
