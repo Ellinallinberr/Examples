@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
+    "C:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
+    "C:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectUniqueName": "C:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "projectName": "Example001_HelloConsole",
-        "projectPath": "c:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectPath": "C:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "packagesPath": "C:\\Users\\ellin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\obj\\",
+        "outputPath": "C:\\Users\\ellin\\OneDrive\\Рабочий стол\\C#\\Examples\\Example001_HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
