@@ -13,7 +13,7 @@ int ReadData(string line)
     return number;
 }
 
-//n!/k!*(n-k)!
+//n!/k!*(n-k)! поиск факториала
 long Factoreal(int n)
 {
     long res = 1;
